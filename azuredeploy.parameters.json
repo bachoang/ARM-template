@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "keyVaultName": { "value": "bh-armkeyvault" },
+    "tenantId": { "value": "0e569bc5-4c43-419e-971b-7c37112adf69" },
+    "objectId": { "value": "dd8bc562-aca0-4e56-a5f2-64ae814e6c8e" },
+    "secretName": { "value": "secret1" },
+    "secretValue": { "value": "secret" }
+    }
+}
